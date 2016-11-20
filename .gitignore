@@ -5,3 +5,4 @@ Makefile
 android-build/
 *.json
 *.user.*
+moc*

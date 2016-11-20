@@ -11,11 +11,11 @@ int main(int argc, char *argv[])
     //engine
     QQmlApplicationEngine engine;
 
-    //load class
+    //Charger la classe
     CBLEDiscover *bleDiscover = new CBLEDiscover();
     engine.rootContext()->setContextProperty("BLEDiscover", bleDiscover);
 
-    //load QML
+    //Charger le QML
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
 
     return app.exec();

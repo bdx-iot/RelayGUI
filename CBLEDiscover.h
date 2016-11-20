@@ -7,9 +7,9 @@
 
 #include "CBLEDeviceInfo.h"
 
-#define UUID_RELAY1         0x2aa4
-#define UUID_RELAY2         0x2aa5
-#define UUID_TEMPERATURE    0x2aa6
+#define CHAR_UUID_RELAY1         0x2aa4
+#define CHAR_UUID_RELAY2         0x2aa5
+#define CHAR_UUID_TEMPERATURE    0x2aa6
 
 class CBLEDiscover : public QObject
 {
